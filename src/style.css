@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-body {
+  border: 1px solid lightgrey;
+  width: 600px;
+  height: 60%;
+  border-radius: 1rem;
+  padding: 16px;
+}
+
+.todo-form {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.todo-form input {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 20px;
+    padding: 6px;
+    width: 100%;
+}
+
+.todo-form button {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: aquamarine;
+    transition: 200ms ease-in-out;
+    text-transform: uppercase;
+}
+
+.todo-form button:hover {
+    background-color: green;
+    color: white;
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-options  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
