@@ -9,6 +9,7 @@ export default function App() {
     <main>
       <div className="todo-body">
         <ToDoForm todo={todo} setToDo={setToDo} />
+        <input type="search" />
         <TodoList todo={todo} setToDo={setToDo} />
       </div>
     </main>
